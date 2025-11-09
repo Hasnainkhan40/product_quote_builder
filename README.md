@@ -37,7 +37,7 @@ Built using **Material 3**, **Glassmorphism**, and smooth transitions — it pro
 |-------------|-----------|
 | ![Light Mode](assets/screenshots/light_ui.jpg) | ![Dark Mode](assets/screenshots/dark_ui.jpg) |
 
-> 💡 Add screenshots in `assets/screenshots/` for a complete preview.
+
 
 ---
 
