@@ -1,16 +1,62 @@
-# product_quote_builder
+<h1 align="center">🧾 Product Quote Builder</h1>
 
-A new Flutter project.
+<p align="center">
+  <i>A beautifully designed Flutter app to create, manage, and preview product quotes with stunning UI and smooth animations.</i>
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.24+-blue?logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-3.0+-0175C2?logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" />
+</p>
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Product Quote Builder** is a sleek, modern Flutter application for generating professional quotes within seconds.  
+Built using **Material 3**, **Glassmorphism**, and smooth transitions — it provides a premium user experience for freelancers, businesses, and agencies.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 💎 Features
+
+- 🧠 Smart & minimal UI with glassmorphism design  
+- 🧮 Auto calculation for subtotal, tax, and total  
+- 💾 Local saving support (ready for persistent storage)  
+- 💡 Real-time quote preview  
+- 🌗 Light / Dark theme toggle  
+- ⚡ Responsive design for mobile, web, and desktop  
+
+---
+
+## 🖼️ UI Preview
+
+| UI | UI |
+|-------------|-----------|
+| ![Light Mode](assets/screenshots/light_ui.jpg) | ![Dark Mode](assets/screenshots/dark_ui.jpg) |
+
+> 💡 Add screenshots in `assets/screenshots/` for a complete preview.
+
+---
+
+## 🧱 Folder Structure
+
+```bash
+lib/
+├── main.dart
+├── presentation/
+│   ├── pages/
+│   │   └── quote_builder_page.dart
+│   ├── widgets/
+│   │   ├── glass_card.dart
+│   │   ├── modern_text_field.dart
+│   │   └── modern_dropdown.dart
+├── data/
+│   ├── models/
+│   └── local_storage/
+└── core/
+    ├── theme/
+    ├── utils/
+    └── constants/
